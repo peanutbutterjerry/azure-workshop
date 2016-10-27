@@ -12,6 +12,6 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Home Page',
+        title='Hello, world!',
         year=datetime.now().year,
     )
